@@ -26,3 +26,12 @@ Calcular inicialmente para una sola columna y mas tarde para todas las columnas 
 ### 4. Implementación centralizada de un algoritmo de ML supervisado
 
 Utilizando el conjunto de datos etiquetados "botnet_tot_syn_l.csv", implemente un clasificador de regresión logística con Python.
+
+### 5. Implementación paralelizada de un algoritmo de ML supervisado
+
+Utilizando Spark y Python, implemente una versión paralelizada del algoritmo realizado en el ejercicio anterior. 
+
+#### Opcionalmente: 
+
+- Explore diferentes valores para la tasa de aprendizaje (hiperparámetro "alfa") y trace los costes de entrenamiento en función de las iteraciones del modelo final. Comenta críticamente los resultados.
+- Trace curvas de rendimiento y aceleración. La curva de rendimiento muestra el tiempo de ejecución (eje y) frente al número de trabajadores (eje x). La curva de aceleración muestra la relación (tiempo de ejecución con 1 trabajador) / (tiempo de ejecución con n trabajadores) frente al número de trabajadores. Comente críticamente los resultados con respecto a la paralelización.
